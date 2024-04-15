@@ -9,14 +9,14 @@ public class Question2
      * 
      * Hint: in.nextDouble() to read double
      */
-
-    Scanner in = new Scanner(System.in);
+    
+    Scanner in = new Scanner(System.sc);
     //System.out.print("Enter your height in meters: ");
     double height = in.nextDouble();
     
     //System.out.print("Enter your weight in kilograms: ");  
     double weight = in.nextDouble();
-    
+
     System.out.println(weight / (height * height)); 
   }
 }
