@@ -33,7 +33,7 @@ public class Question5
 
     ArrayList<Integer> data = new ArrayList<Integer>();
     for (int i = 0; i < num; i++) {
-      System.out.print("> ");
+      //System.out.print("> ");
       data.add(in.nextInt());
     }
     int maxValue = 0;
@@ -51,7 +51,7 @@ public class Question5
         }
       } 
     }
-    System.out.println(maxValue);
+    //System.out.println(maxValue);
     
   }
 }
