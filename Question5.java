@@ -28,7 +28,7 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    System.out.print("Enter the total number of integer: ");
+    //System.out.print("Enter the total number of integer: ");
     int num = in.nextInt();
 
     ArrayList<Integer> data = new ArrayList<Integer>();
