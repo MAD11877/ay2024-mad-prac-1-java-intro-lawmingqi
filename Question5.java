@@ -51,7 +51,7 @@ public class Question5
         }
       } 
     }
-    //System.out.println(maxValue);
+    System.out.println(maxValue);
     
   }
 }
