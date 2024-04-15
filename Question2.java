@@ -17,6 +17,6 @@ public class Question2
     //System.out.print("Enter your weight in kilograms: ");  
     double weight = in.nextDouble();
 
-    System.out.println(weight/(height*height));
+    System.out.println(weight/(height*height)/10000);
   }
 }
